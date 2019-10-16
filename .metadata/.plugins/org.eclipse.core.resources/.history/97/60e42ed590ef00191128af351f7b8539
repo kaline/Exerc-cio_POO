@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+
+public class HelloN{
+	static Scanner userInput = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Your favorite number:\n");
+		
+		if(userInput.hasNextInt()) {
+			
+			int numberEntered = userInput.nextInt();
+			
+			System.out.println("Your entered:" + numberEntered);
+			
+		}
+		
+		
+	}
+	
+			
+	
+	
+}

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class funcionario {
+	
+	static Scanner userInput = new Scanner(System.in);
+
+
+	public static void main(String[] args) {
+		
+		String nomefunc = userInput.nextLine();
+		float salariobase = userInput.nextFloat();
+		
+		System.out.println("Nome do funcionário:" + nomefunc);
+		
+	}
+	
+	
+}

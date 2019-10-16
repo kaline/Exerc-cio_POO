@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class funcionario {
+	
+	static Scanner nomefunc = new Scanner(System.in);
+
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Nome do funcionário:" + nomefunc);
+		
+		
+		
+		
+	}
+	
+	
+}

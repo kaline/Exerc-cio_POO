@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class servidor {
+	
+	static Scanner inputSetor = new Scanner(System.in);
+	static Scanner inputCargo = new Scanner(System.in);
+	static Scanner inputFuncao = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		char setor = inputSetor.next().charAt(6);
+		String cargo = inputCargo.nextLine();
+		String funcao = inputFuncao.nextLine();
+		
+		System.out.println("Relatório do servidor:");
+		System.out.println("Setor do servidor:" + setor);
+		System.out.println("Cargo do servidor:" + cargo);
+		System.out.println("Funcao do servidor:" + funcao);
+
+		
+		
+		
+	}
+
+}

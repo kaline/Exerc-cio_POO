@@ -1,0 +1,22 @@
+import java.util.*;
+
+
+public class funcionario {
+	
+	static Scanner userInput = new Scanner(System.in);
+	static Scanner userInput1 = new Scanner(System.in);
+
+
+	public static void main(String[] args) {
+		
+		String nomefunc = userInput.nextLine();
+		double salariobase = userInput1.nextDouble();
+		
+		System.out.println("\nNome do funcionário:" + nomefunc);
+		System.out.println("\nSalário base do funcionário:" + salariobase);
+
+		
+	}
+	
+	
+}

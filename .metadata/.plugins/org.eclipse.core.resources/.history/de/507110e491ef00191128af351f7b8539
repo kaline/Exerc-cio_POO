@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+
+
+public class HelloN{
+	static Scanner userInput = new Scanner(System.in);
+	static Scanner bool = new Scanner(System.in);
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println("\nYour favorite number:");
+		
+		if(userInput.hasNextInt()) {
+			
+			int numberEntered = userInput.nextInt();
+			
+			System.out.println("\nYour entered:" + numberEntered);
+			System.out.println("\nDow you want enter a number again?(y/n)" );
+
+			
+			if(bool.hasNext("y")) {
+				
+				int numberEntered1 = userInput.nextInt();
+
+				
+				
+				System.out.println("\nYour entered again:" + numberEntered1);
+
+				
+				
+				
+			}
+			
+		}else {
+			
+			return;
+		}
+		
+		
+	}
+	
+			
+	
+	
+}

@@ -1,0 +1,19 @@
+
+public class professor {
+	
+	static Scanner inputdepart = new Scanner(System.in);
+	static Scanner inputaarea = new Scanner(System.in);
+	
+
+	public static void main(String[] args) {
+		
+		String departamento = Scanner.nextLine();
+		String area = Scanner.nextLine();
+		
+		System.out.println("Departamento:" + departamento);
+		System.out.println("Area do conehcimento:" + area);
+
+		
+	}
+
+}

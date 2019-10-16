@@ -1,0 +1,14 @@
+
+public class HelloN {
+	
+	
+	static String randomString = "String to print";
+	static final double pinum;
+
+	public static void main(String[] args) {
+				
+		System.out.println(randomString + pinum);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class HelloN {
+
+	public static void main(String[] args) {
+		
+		byte bigByte = 127;
+		short bigShort = 32667;
+		int bigInt = 210000000;
+		long bigLong = 9220000000000L;
+		float bigFloat = 3.14F;
+		double bigDouble = 3.144342342423425532523524;
+		
+		System.out.print(byte.MAX_VALUE);
+				
+
+	}
+
+}
