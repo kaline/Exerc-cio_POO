@@ -1,7 +1,3 @@
-# projeto-poo
-O projeto final da disciplina de poo
-Requisitos:
+# Exercícios da cadeira de POO
 
-Diagrama:
-
-Algoritmo:
+### 1° e 2° etapa
